@@ -1,11 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using plataformaCursos.ContentContext;
+using plataformaCursos.NotificationContext;
 
 namespace aula09.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
         public CareerItem(
             int order,
@@ -14,7 +12,7 @@ namespace aula09.ContentContext
             Course course)
         {
             if (course == null)
-                throw new System.Exception("O curso nao pode ser nulo");
+                AddNotification(new Notification("Course", "Curso invalido"));
             
             Order = order;
             Title = title;

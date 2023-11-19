@@ -1,4 +1,3 @@
-
 namespace aula09.ContentContext.Enums
 {
     public enum EContentLevel

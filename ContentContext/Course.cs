@@ -1,4 +1,3 @@
-
 using aula09.ContentContext.Enums;
 
 namespace aula09.ContentContext

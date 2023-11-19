@@ -1,8 +1,8 @@
-using System.Collections.Generic;
+using plataformaCursos.ContentContext;
 
 namespace aula09.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         public Module()
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ads\\lp\\curso_balta_io\\aula09\\aula09.csproj": {}
+    "C:\\ads\\lp\\curso_balta_io\\plataformaCursos\\aula09.csproj": {}
   },
   "projects": {
-    "C:\\ads\\lp\\curso_balta_io\\aula09\\aula09.csproj": {
+    "C:\\ads\\lp\\curso_balta_io\\plataformaCursos\\aula09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ads\\lp\\curso_balta_io\\aula09\\aula09.csproj",
+        "projectUniqueName": "C:\\ads\\lp\\curso_balta_io\\plataformaCursos\\aula09.csproj",
         "projectName": "aula09",
-        "projectPath": "C:\\ads\\lp\\curso_balta_io\\aula09\\aula09.csproj",
+        "projectPath": "C:\\ads\\lp\\curso_balta_io\\plataformaCursos\\aula09.csproj",
         "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\ads\\lp\\curso_balta_io\\aula09\\obj\\",
+        "outputPath": "C:\\ads\\lp\\curso_balta_io\\plataformaCursos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config"

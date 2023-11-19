@@ -1,4 +1,3 @@
-
 namespace aula09.ContentContext
 {
     public class Career : Content
