@@ -1,5 +1,5 @@
 using aula09.ContentContext.Enums;
-using plataformaCursos.ContentContext;
+using plataformaCursos.SharedContext;
 
 namespace aula09.ContentContext
 {

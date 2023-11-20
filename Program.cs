@@ -1,4 +1,5 @@
 ﻿using aula09.ContentContext;
+using plataformaCursos.SubscriptionContext;
 
 internal class Program
 {
@@ -28,7 +29,7 @@ internal class Program
 
         var careers = new List<Career>();
         var careerDotnet = new Career("especialista .NET", "especialista-dotnet");
-        var careerItem = new CareerItem(1, "Comece por aqui", "", courseOop);
+        var careerItem = new CareerItem(1, "Comece por aqui", "", null);
         var careerItem2 = new CareerItem(2, "Aprenda OOP", "", courseCsharp);
         var careerItem3 = new CareerItem(3, "Aprenda .NET", "", courseAspnet);
 
@@ -51,6 +52,9 @@ internal class Program
                     Console.WriteLine($"{notification.Property} - {notification.Message}");
                 }
             }
+            var payPalSubscripion = new PayPalSubscripion();
+            var student = new Student();
+            student.CreateSubscription(payPalSubscripion);
         }
     }
 }

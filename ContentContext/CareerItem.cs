@@ -1,4 +1,4 @@
-using plataformaCursos.ContentContext;
+using plataformaCursos.SharedContext;
 using plataformaCursos.NotificationContext;
 
 namespace aula09.ContentContext
